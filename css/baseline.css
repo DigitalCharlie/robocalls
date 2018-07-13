@@ -1,0 +1,156 @@
+/* NOTES
+
+/*
+
+/* Global stuff */
+
+    .hidden {
+        display:none;
+    }
+
+    .clear {
+        clear:both;
+    }
+
+/* TYPOGRAPHY */
+    body {
+
+    }
+
+    p {
+
+    }
+
+    h1 {
+
+    }
+
+    h2 {
+
+    }
+
+    h3 {
+
+    }
+
+
+/* HEADER CSS */
+
+/* FOOTER CSS */
+
+/* SECTIONS OF PAGE BACKGROUNDS CSS */
+
+/* Share Buttons */
+
+    .share-button, .button {
+        width: 100%;
+        margin-bottom:5px;
+    }
+
+    .share-button:hover {
+        background: #ec476b;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+    .shareButtons {
+        width:100%;
+    }
+
+    button, .btn, .button {
+        display: inline-block;
+        text-align: center;
+        padding:8px 0;
+        font-size: 18px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:#ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+        border-style: none;
+    }
+
+    .button {
+        background: #71d4dd;
+    }
+
+    button, .btn {
+        background: #ec476b;
+    }
+
+    button:hover, .btn:hover {
+        background: #71d4dd;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+    .button:hover {
+        background: #ec476b;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;
+    }
+
+    .donate-button {
+        background-color:#ec476b;
+        width:100%;
+    }
+
+    .donate-button:hover {
+        background: #71d4dd;
+        transition-duration: .5s;
+        -webkit-transition-duration: .5s;   
+    }
+
+    .facebook {
+        background: #3b5998;
+    }
+    
+    .twitter {
+        background: #1DA1F2;
+    }
+    
+    .email {
+        background: #ec476b;
+    }
+
+/* Blog Posts on Home Page */
+
+
+@media screen and (min-width: 650px) {
+
+    /* Type */
+
+        body {
+            background-size:100%;
+        }
+
+        h1 {
+            font-size:3em;
+        }
+
+        h2 {
+            font-size:1.5em;
+        }
+
+        h3 {
+
+        }
+
+        p {
+
+        }
+
+    /* button styles */
+
+        .shareButtons {
+            max-width:400px;
+            margin:0 auto 5px;
+        }
+
+        .donate-button {
+            width:300px;
+            margin:0 auto;
+            display:block;
+        }
