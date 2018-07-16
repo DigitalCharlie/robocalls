@@ -35,6 +35,7 @@ Neither are in google fonts or typekit --> alts would be very welcome.
     body {
         margin:0;
         text-align: center;
+        font-family:'Open Sans';
     }
 
     p {
@@ -87,6 +88,7 @@ Neither are in google fonts or typekit --> alts would be very welcome.
 
     .topContent {
         padding:3%;
+        font-weight:bold;
     }
 
     .FAQs {
