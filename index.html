@@ -21,16 +21,15 @@
     <title>TITLE (again)</title>
     <link href="css/baseline.css" rel="stylesheet"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
-    <!-- IF USING JAVASCRIPT
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
         <script type="text/javascript" src="js/core.js" rel="stylesheet"></script>
-    -->
+
 </head>
 <body>
 
     <div class="top">
 
-        <div class="content">
+        <div class="content topContent">
 
             <h1>#HimToo</h1>
 
@@ -42,9 +41,9 @@
 
     </div>
 
-    <div class="steps">
+    <div class="steps" id="steps">
 
-        <div class="content">
+        <div class="content" id="callContent">
 
             <h2>Step 1</h2>
 
@@ -61,13 +60,13 @@
 
             <h2>Step 2</h2>
 
-            <p>Press this button. Every time you do, a machine will call a Member of Congress and play the recording of Donald Trump confessing to sexual assault.</p>
+            <p>Press this button. When you do, a machine will call a Member of Congress and play the recording of Donald Trump confessing to sexual assault.</p>
 
-                <button class="callButton">Auto-Dial Congress</button>
+                <button class="callButton" id="firstCall">Auto-Dial Congress</button>
 
         </div>
 
-        <div class="content">
+        <div class="content" id="shareContent">
 
             <h2>Great!</h2>
 
@@ -92,7 +91,7 @@
 
             <button class="callButton">Auto-Dial Congress</button>
 
-            <h2>And stay tuned.</h2>
+            <h2>Stay tuned.</h2>
 
             <p> Because unfortunately it takes more than a confession and this website to kick out a President.</p>
 
