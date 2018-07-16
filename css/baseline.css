@@ -40,7 +40,7 @@ Neither are in google fonts or typekit --> alts would be very welcome.
 
     p {
         margin-top:0;
-        font-size:1.2em;
+        font-size:1em;
     }
 
     h1 {
@@ -91,10 +91,6 @@ Neither are in google fonts or typekit --> alts would be very welcome.
         font-weight:bold;
     }
 
-    .FAQs {
-        padding:0 3% 3%;
-    }
-
     .top {
         background-color: #1e1e1e;
         color:#ffffff;
@@ -126,6 +122,30 @@ Neither are in google fonts or typekit --> alts would be very welcome.
         -webkit-transition-duration: .7s;
         padding-bottom:0;
     }
+
+    .FAQs {
+        padding:0 3% 3%;
+        margin:0 auto;
+        display:block;
+        width:1200px;
+        max-width:94%;
+        padding:1% 3%;
+    }
+
+    .faqColumn {
+        text-align:left;
+
+    }
+
+    .faqQuestion {
+        font-weight:bold;
+        margin-top:15px;
+    }
+
+    .faqAnswer {
+        margin-bottom:40px;
+    }
+
 
 /* FOOTER CSS */
 
@@ -224,7 +244,7 @@ Neither are in google fonts or typekit --> alts would be very welcome.
 /* Blog Posts on Home Page */
 
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 700px) {
 
     /* Type */
 
@@ -256,6 +276,13 @@ Neither are in google fonts or typekit --> alts would be very welcome.
 
         .input {
             width: 60%;
+        }
+
+        .faqColumn {
+            display:inline;
+            width:45%;
+            margin:0 2.5%;
+            float:left;
         }
 
     /* button styles */
