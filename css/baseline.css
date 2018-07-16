@@ -1,5 +1,19 @@
 /* NOTES
 
+colors:
+Primary green: #1AF2B7;
+Secondary blue: #1A66F2;
+Black: #1E1E1E;
+White: #ffffff;
+
+headline font:
+UK Number Plate;
+
+H2
+Gobold (family)
+
+Neither are in google fonts or typekit --> alts would be very welcome.
+
 /*
 
 /* Global stuff */
@@ -14,54 +28,105 @@
 
 /* TYPOGRAPHY */
     body {
-
+        margin:0;
+        text-align: center;
     }
 
     p {
-
+        margin-top:0;
+        font-size:1.2em;
     }
 
     h1 {
-
+        color: #1AF2B7;
+        font-size:4em;
+        margin-bottom:0;
+        font-family:'Gobold Regular';
     }
 
     h2 {
-
+        font-size:2em;
+        margin-bottom:0;
+        text-transform: uppercase;
+        font-family: 'Gobold Regular';
     }
 
     h3 {
 
     }
 
+    @font-face {
+        font-family: Gobold Regular;
+        src: url("../fonts/Gobold Regular.otf") format('opentype');
+        font-style: normal;
+    }
 
-/* HEADER CSS */
+    @font-face {
+        font-family: UKNumberPlate;
+        src: url("../fonts/UKNumberPlate.ttf") format('truetype');
+        font-style: normal;
+    }
+
+
+/* MAIN CSS */
+
+    .content {
+        margin:0 auto;
+        display:block;
+        width:800px;
+        max-width:94%;
+        padding:3%;
+    }
+
+    .top {
+        background-color: #1e1e1e;
+        color:#ffffff;
+        padding-bottom:8%;
+    }
+
+    .input {
+        height: 40px;
+        border: 1px solid #d3d3d3;
+        vertical-align: bottom;
+        border-radius: 5px;
+        font-size: 1em;
+        text-indent: 10px;
+        width: 100%;
+        margin-right:1%;
+        color:grey;
+        padding:0px;
+        margin-bottom:10px;
+        box-sizing: border-box;
+    }
 
 /* FOOTER CSS */
 
+    .footer {
+        background-color:#1e1e1e;
+        padding:1%;
+    }
+
+    .footerLogo {
+        margin:0 auto;
+        display:block;
+        width:140px;
+    }
+
 /* SECTIONS OF PAGE BACKGROUNDS CSS */
 
-/* Share Buttons */
-
-    .share-button, .button {
-        width: 100%;
-        margin-bottom:5px;
-    }
-
-    .share-button:hover {
-        background: #ec476b;
-        transition-duration: .5s;
-        -webkit-transition-duration: .5s;
-    }
+/* Buttons */
 
     .shareButtons {
         width:100%;
+        margin-bottom:25px;
     }
 
-    button, .btn, .button {
+    button, .button {
         display: inline-block;
         text-align: center;
+        width:100%;
         padding:8px 0;
-        font-size: 18px;
+        margin-bottom:10px;
         font-weight: 900;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -70,49 +135,52 @@
         border-radius: 5px;
         cursor: pointer;
         border-style: none;
+        font-family:'gobold Regular';
     }
 
-    .button {
-        background: #71d4dd;
+    button {
+        font-size:2em;
+        background: #1AF2B7;
+        box-shadow: 0 0.1em 0 #0cd8a1;
+        margin-bottom:20px;
     }
 
-    button, .btn {
-        background: #ec476b;
-    }
-
-    button:hover, .btn:hover {
-        background: #71d4dd;
+    button:hover {
+        background: #0cd8a1;
         transition-duration: .5s;
         -webkit-transition-duration: .5s;
     }
 
     .button:hover {
-        background: #ec476b;
         transition-duration: .5s;
         -webkit-transition-duration: .5s;
     }
 
-    .donate-button {
-        background-color:#ec476b;
-        width:100%;
-    }
-
-    .donate-button:hover {
-        background: #71d4dd;
-        transition-duration: .5s;
-        -webkit-transition-duration: .5s;   
-    }
-
     .facebook {
         background: #3b5998;
+        box-shadow: 0 0.18em 0 #4061a6;
+    }
+
+    .facebook:hover {
+        background:#4061a6;
     }
     
     .twitter {
         background: #1DA1F2;
+        box-shadow: 0 0.18em 0 #0d8ddb;
+    }
+
+    .twitter:hover {
+        background: #0d8ddb;
     }
     
-    .email {
-        background: #ec476b;
+    .whatsapp {
+        background: #25D366;
+        box-shadow: 0 0.18em 0 #22c25e;
+    }
+
+    .whatsapp:hover {
+        background: #22c25e;
     }
 
 /* Blog Posts on Home Page */
@@ -127,11 +195,11 @@
         }
 
         h1 {
-            font-size:3em;
+            font-size:7em;
         }
 
         h2 {
-            font-size:1.5em;
+            font-size:3em;
         }
 
         h3 {
@@ -142,15 +210,29 @@
 
         }
 
+    /* MAIN */
+
+        .content {
+            max-width:65%;
+        }
+
+        .input {
+            width: 60%;
+        }
+
     /* button styles */
 
+        .callButton {
+            width:400px;
+        }
+
         .shareButtons {
-            max-width:400px;
             margin:0 auto 5px;
         }
 
-        .donate-button {
-            width:300px;
-            margin:0 auto;
-            display:block;
+        .button {
+            width:200px;
+            margin:0 2px 10px;
         }
+
+}
