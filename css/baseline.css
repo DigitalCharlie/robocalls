@@ -26,6 +26,11 @@ Neither are in google fonts or typekit --> alts would be very welcome.
         clear:both;
     }
 
+    .noDecoration {
+        text-decoration: none;
+        color:inherit;
+    }
+
 /* TYPOGRAPHY */
     body {
         margin:0;
@@ -40,13 +45,13 @@ Neither are in google fonts or typekit --> alts would be very welcome.
     h1 {
         color: #1AF2B7;
         font-size:4em;
-        margin-bottom:0;
+        margin-bottom:20px;
         font-family:'Gobold Regular';
     }
 
     h2 {
         font-size:2em;
-        margin-bottom:0;
+        margin-bottom:10px;
         text-transform: uppercase;
         font-family: 'Gobold Regular';
     }
@@ -181,6 +186,16 @@ Neither are in google fonts or typekit --> alts would be very welcome.
 
     .whatsapp:hover {
         background: #22c25e;
+    }
+
+    .instashare {
+        font-size:.8em;
+        font-style:italic;
+    }
+
+    .instashareImage {
+        width:200px;
+        margin:0 auto;
     }
 
 /* Blog Posts on Home Page */
