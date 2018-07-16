@@ -69,11 +69,14 @@ Neither are in google fonts or typekit --> alts would be very welcome.
         font-style: normal;
     }
 
+
+    /* NOT CURRENTLY USING
     @font-face {
         font-family: UKNumberPlate;
         src: url("../fonts/UKNumberPlate.ttf") format('truetype');
         font-style: normal;
     }
+    */
 
 
 /* MAIN CSS */
@@ -88,7 +91,7 @@ Neither are in google fonts or typekit --> alts would be very welcome.
 
     .topContent {
         padding:3%;
-        font-weight:bold;
+        font-weight:700;
     }
 
     .top {
@@ -138,7 +141,7 @@ Neither are in google fonts or typekit --> alts would be very welcome.
     }
 
     .faqQuestion {
-        font-weight:bold;
+        font-weight:800;
         margin-top:15px;
     }
 
