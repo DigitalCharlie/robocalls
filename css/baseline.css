@@ -54,6 +54,8 @@ Neither are in google fonts or typekit --> alts would be very welcome.
         margin-bottom:10px;
         text-transform: uppercase;
         font-family: 'Gobold Regular';
+        text-decoration:underline;
+        text-decoration-color:#1AF2B7;
     }
 
     h3 {
