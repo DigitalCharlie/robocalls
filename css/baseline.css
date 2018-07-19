@@ -274,11 +274,11 @@ Neither are in google fonts or typekit --> alts would be very welcome.
     /* MAIN */
 
         .content {
-            max-width:65%;
+            max-width:40%;
         }
 
         .input {
-            width: 60%;
+            width: 95%;
         }
 
         .faqColumn {
